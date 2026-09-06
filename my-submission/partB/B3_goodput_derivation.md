@@ -56,6 +56,8 @@ $$\text{Goodput}_{\text{decode}} = \frac{\text{Concurrent Active Batch}}{\text{i
 | **Batch-48 Throughput** | ~3200 tok/s *(projected linear)*| **1298.5 tok/s** (Total) / **162.3 tok/s** (Goodput) | **16.0× Overstatement** |
 | **Prompt Length Impact** | "Longer prompts give better throughput" | Longer prompts crash batch capacity and increase latency | Flawed Recommendation |
 
+**Interactive Desmos Model:** An interactive visualization comparing the intern's reported throughput against honest generation goodput is available at [https://www.desmos.com/calculator/je5emtbbzy](https://www.desmos.com/calculator/je5emtbbzy).
+
 ---
 
 ## 4. What `REPORT_v0` Should Have Said

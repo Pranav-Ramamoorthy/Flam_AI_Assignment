@@ -8,7 +8,7 @@
 
 ## 1. Overview of Desmos Models & Live Link
 
-**Live Interactive Desmos Link:** [https://www.desmos.com/calculator/gpl8qzsnti](https://www.desmos.com/calculator/gpl8qzsnti)
+**Live Interactive Desmos Link:** [https://www.desmos.com/calculator/je5emtbbzy](https://www.desmos.com/calculator/je5emtbbzy)
 
 To provide leadership with interactive mathematical modeling of the serving stack, we have created interactive Desmos graphs:
 1. **Model 1: Serving Capacity Frontier ($B_{\text{max}}$ vs Sequence Length $s$)**:
