@@ -11,7 +11,7 @@ This audit applies the strict **Evidence Rule**: every identified flaw is accomp
   - `eng_sample.txt` line 7: `"Please keep the books  in the cupboard."` contains two consecutive spaces between `books` and `in`. `split(" ")` yields 8 words (`['Please', 'keep', 'the', 'books', '', 'in', 'the', 'cupboard.']`), whereas the true word count is 7.
   - `hin_sample.txt` line 10: `"किताबें  अलमारी में रखी हैं।"` contains two consecutive spaces. `split(" ")` yields 6 words (`['किताबें', '', 'अलमारी', 'में', 'रखी', 'हैं।']`), whereas the true word count is 5.
 - **Experimental Measurement**:
-  - **Reproduction Command**: `python your-submission/partA/audit_evidence.py`
+  - **Reproduction Command**: `python my-submission/partA/audit_evidence.py`
   - **English Fertility**: Before (`split(" ")`) = **1.2652** $\rightarrow$ After (`split()`) = **1.2831** (Delta: **+0.0179**, **+1.41%**)
   - **Hindi Fertility**: Before (`split(" ")`) = **7.4485** $\rightarrow$ After (`split()`) = **7.5985** (Delta: **+0.1500**, **+2.01%**)
   - **Cross-Lingual Ratio**: 5.8871× $\rightarrow$ **5.9221×**
