@@ -1,0 +1,17 @@
+tokenizer,language,num_sentences,total_tokens,tok_per_sentence,tok_per_word_micro,tok_per_word_macro,tok_per_grapheme,tok_per_byte,tok_per_char
+gpt2,eng,1012,27044,26.72,1.23,1.24,0.205,0.205,0.205
+gpt2,hin,1012,200688,198.31,7.83,7.87,2.335,0.595,1.53
+gpt2,kan,1012,367366,363.01,22.82,23.02,4.065,0.979,2.662
+gpt2,tam,1012,420171,415.19,25.05,25.25,4.213,0.997,2.726
+hf:xlm-roberta-base,eng,1012,30661,30.3,1.4,1.41,0.232,0.232,0.232
+hf:xlm-roberta-base,hin,1012,38221,37.77,1.49,1.51,0.445,0.113,0.291
+hf:xlm-roberta-base,kan,1012,41459,40.97,2.58,2.6,0.459,0.11,0.3
+hf:xlm-roberta-base,tam,1012,41354,40.86,2.47,2.49,0.415,0.098,0.268
+hf:google/muril-base-cased,eng,1012,27581,27.25,1.26,1.27,0.209,0.209,0.209
+hf:google/muril-base-cased,hin,1012,31924,31.55,1.24,1.25,0.371,0.095,0.243
+hf:google/muril-base-cased,kan,1012,29382,29.03,1.82,1.84,0.325,0.078,0.213
+hf:google/muril-base-cased,tam,1012,29204,28.86,1.74,1.75,0.293,0.069,0.189
+hf:Qwen/Qwen2.5-0.5B,eng,1012,27621,27.29,1.26,1.27,0.209,0.209,0.209
+hf:Qwen/Qwen2.5-0.5B,hin,1012,121957,120.51,4.76,4.78,1.419,0.361,0.93
+hf:Qwen/Qwen2.5-0.5B,kan,1012,191127,188.86,11.87,11.97,2.115,0.509,1.385
+hf:Qwen/Qwen2.5-0.5B,tam,1012,168828,166.83,10.06,10.14,1.693,0.4,1.095
