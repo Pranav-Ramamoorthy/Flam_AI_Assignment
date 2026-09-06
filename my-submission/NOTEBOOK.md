@@ -162,6 +162,7 @@
     - Method 1 (End-to-End): $\frac{24 \times 512}{61.16} = \mathbf{200.9\text{ tok/s}}$ (an 8× difference from reported!).
     - Method 2 (Decode ITL): $\frac{24}{0.09607\text{s}} = \mathbf{249.8\text{ tok/s}}$.
   - The intern's projection of ~3200 tok/s at batch 48 was an impossible 16× hallucination.
+  - **Live Desmos Visualization**: Model published at [https://www.desmos.com/calculator/gpl8qzsnti](https://www.desmos.com/calculator/gpl8qzsnti) plotting reported throughput, preemption collapse, and honest goodput.
 
 ---
 

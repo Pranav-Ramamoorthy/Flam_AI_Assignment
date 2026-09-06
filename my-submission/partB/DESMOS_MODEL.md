@@ -6,8 +6,11 @@
 
 ---
 
-## 1. Overview of Desmos Models
-To provide leadership with interactive mathematical modeling of the serving stack, we have created two interactive Desmos graph specifications:
+## 1. Overview of Desmos Models & Live Link
+
+**Live Interactive Desmos Link:** [https://www.desmos.com/calculator/gpl8qzsnti](https://www.desmos.com/calculator/gpl8qzsnti)
+
+To provide leadership with interactive mathematical modeling of the serving stack, we have created interactive Desmos graphs:
 1. **Model 1: Serving Capacity Frontier ($B_{\text{max}}$ vs Sequence Length $s$)**:
    - Visualizes maximum concurrent batch size as a hyperbolic function of total sequence length ($s$).
    - Demonstrates the operating boundary between safe execution and KV-cache out-of-memory.
@@ -102,3 +105,4 @@ Add this **Data Table 2** (Honest Generation Goodput):
 4. Click the **Share** button (green button with an arrow/link icon in the top-right toolbar).
 5. Click **Copy** to copy your unique shareable link (e.g., `https://www.desmos.com/calculator/abc123xyz`).
 6. Submit this URL alongside your repository link.
+
